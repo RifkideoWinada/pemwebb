@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Ridho Faturahman | Portofolio Pribadi</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rifki deo winnada | Portofolio Pribadi</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -31,22 +32,25 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="hero" class="hero-section">
+<section id="hero" class="hero-section">
+    <div class="hero-overlay">
         <div class="container">
             <div class="hero-content">
-                <img src="assets/images/profile.jpg" alt="Foto Profil" class="profile-pic">
-                <h1>HALO, SAYA <strong>RIFKI DEO WINNADA</strong></h1>
-                <p>Seorang <strong>web developer</strong> yang bersemangat dalam hal apapun</p>
+                <img src="IMG_20240903_212521_533.jpg" alt="Foto Profil" class="profile-pic"/>
+                <h1><strong>RIFKI DEO WINNADA</strong></h1>
+                <p>Seorang <strong>Junior Web Developer</strong> yang bersemangat dalam hal apapun</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- About Section -->
     <section id="about" class="about-section">
         <div class="container">
             <h2>Tentang Saya</h2>
-            <p>Saya adalah individu yang memiliki minat besar dalam dunia teknologi, terutama pengembangan web. Saya telah membangun beberapa website menggunakan HTML, CSS, dan JavaScript.</p>
-            <p>Di luar coding, saya suka mendaki gunung, membaca buku, dan bermain game. Saya percaya bahwa keseimbangan antara pekerjaan dan hobi adalah kunci produktivitas.</p>
+            <p>Saya adalah seorang profesional di bidang teknologi dengan fokus utama pada pengembangan web. Pengalaman saya mencakup pembuatan dan pengelolaan berbagai website menggunakan HTML, CSS, dan JavaScript, dengan komitmen tinggi terhadap kualitas dan inovasi. Saya selalu berusaha mengikuti perkembangan teknologi terbaru untuk memberikan solusi yang efektif dan efisien.</p>
+            <p>Di luar pekerjaan, saya percaya pentingnya menjaga keseimbangan hidup dengan melakukan aktivitas seperti mendaki traveling, membaca buku-buku yang menambah wawasan, serta bermain game sebagai sarana pengembangan kemampuan analisis dan strategi. Pendekatan ini membantu saya tetap produktif dan termotivasi dalam menjalankan tugas profesional.</p>
         </div>
     </section>
 
@@ -72,59 +76,69 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="about-section">
-        <div class="container">
-            <h2>Proyek</h2>
-            <p>Berikut beberapa proyek yang pernah saya kerjakan:</p>
-            <ul>
-                <li><strong>Website Portfolio:</strong> Menampilkan informasi pribadi dan karya.</li>
-                <li><strong>Landing Page Produk:</strong> Untuk promosi produk digital.</li>
-                <li><strong>Aplikasi To-Do List:</strong> Dibuat dengan JavaScript untuk mengatur tugas harian.</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-<section id="contact" class="contact-section">
+<section id="projects" class="projects-section">
     <div class="container">
-        <h2>Kontak Saya</h2>
-        <p>Tertarik untuk berkolaborasi atau sekadar ingin menyapa? Jangan ragu untuk menghubungi saya!</p>
-        <form action="https://formspree.io/f/your_form_id" method="POST" class="contact-form">
-            <div class="form-group">
-                <label for="name">Nama</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="_replyto" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Pesan</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn primary-btn">Kirim Pesan</button>
-        </form>
-
-        <div class="social-links">
-            <a href="https://linkedin.com/in/NamaLinkedInAnda" target="_blank" aria-label="LinkedIn">
-                <i class="fab fa-linkedin"></i>
+        <h2>Proyek</h2>
+        <div class="projects-grid">
+            <a href="hhttps://rifkideowinada.github.io/o-tix/" target="_blank" class="project-card">
+                <img src="Screenshot 2025-05-24 233441.png" alt="O-Tix">
+                <p>o-tix</p>
             </a>
-            <a href="http://github.com/NamaGitHubAnda" target="_blank" aria-label="GitHub">
-                <i class="fab fa-github"></i>
+            <a href="https://contohwebsite2.com" target="_blank" class="project-card">
+                <img src="Screenshot 2025-05-24 233751.png" alt="Web Portofolio">
+                <p>Web Portofolio</p>
             </a>
-            <a href="mailto:emailanda@example.com" aria-label="Email">
-                <i class="fas fa-envelope"></i>
+            <a href="https://rifkideowinada.github.io/pemweb/" target="_blank" class="project-card">
+                <img src="Screenshot 2025-05-24 234132.png" alt="Aplikasi To-Do List">
+                <p>Aplikasi To-Do List</p>
             </a>
         </div>
     </div>
 </section>
 
-<footer>
-    <div class="container">
-        <p>&copy; <span id="current-year"></span> Nama Lengkap Anda. Hak Cipta Dilindungi.</p>
-    </div>
-</footer>
 
-<script src="js/script.js"></script>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Kontak Saya</h2>
+            <p>Tertarik untuk berkolaborasi atau sekadar ingin menyapa? Jangan ragu untuk menghubungi saya!</p>
+            <form action="https://formspree.io/f/your_form_id" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" required/>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="_replyto" required/>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Kirim Pesan</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rifkideowinnada" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/RifkideoWinada" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="rifkideo28@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Nama Lengkap Anda. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
-</html>>
+</html>
